@@ -6,16 +6,18 @@
     "forceConsistentCasingInFileNames": true,
     /* Specify what module code is generated. */
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react",
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
     "moduleResolution": "node",
     "skipLibCheck": true,
     /* Ensure that casing is correct in imports. */
+    "sourceMap": true,
     "strict": true,
     /* Enable all strict type-checking options. */
     "target": "esnext"
     /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": ["src"]
 }
